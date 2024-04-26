@@ -1,0 +1,93 @@
+Name,CNN Architecture,Data Augmentation?,epoch/val_categorical_accuracy (Max),Notes,Runtime,CACHEING,ROTATE_LIMIT,SCALE_LIMIT,SHIFT_LIMIT,T_max,decay,epochs,max_lr,min_lr,scheduler,train_size,unique_classes,val_size,video_length,epoch/categorical_accuracy,epoch/epoch,epoch/learning_rate,epoch/loss (Min),epoch/val_loss (Min)
+C1_EfficientNetB0_augmentation,EfficientNetB0,Yes,0.6499999761581421,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe815525e90>",5104,transforms_for_video,10,0.1,0.1,501,0.09,1000,0.0001,0.000025,cosineAnnealer,80,7,20,20,0.925000012,999,2.50029E-05,0.087458454,1.3330596685409546
+C1_EfficientNetB0_augmentation,EfficientNetB0,Yes,0.6000000238418579,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe96a83e690>",2655,transforms_for_video,10,0.1,0.1,251,0.09,500,0.0001,0.00005,cosineAnnealer,80,7,20,20,0.6499999761581421,499,5.00078E-05,0.6201245188713074,1.2984362840652466
+C1_ConvNeXt_augmentation,ConvNeXt,Yes,0.550000012,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe79068fed0>",2807,transforms_for_video,10,0.1,0.1,251,0.09,500,0.0001,0.00005,cosineAnnealer,80,7,20,20,0.925000012,499,5.00078E-05,0.032526027,1.6400601863861084
+C1_MobileNetV3Small_2_no_transforms,MobileNetV3Small,Yes,0.550000012,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdc605ef810>",1530,transforms_for_video_no_transforms,10,0.05,0.1,251,0.09,500,0.00005,0.00001,cosineAnnealer,80,7,20,20,1,499,1.00063E-05,0.002679534,1.892475128173828
+C1_Resnet50_augmentation_no_transforms,ResNet50,Yes,0.550000012,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fd33c2e1250>",1604,transforms_for_video_no_transforms,10,0.05,0.1,251,0.09,500,0.00005,0.00001,cosineAnnealer,80,7,20,20,1,499,1.00063E-05,0.000196348,2.2425694465637207
+C1_Resnet50_augmentation,ResNet50,Yes,0.5,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe9107b6090>",2618,transforms_for_video,10,0.1,0.1,251,0.09,500,0.00005,0.00001,cosineAnnealer,80,7,20,20,1,499,1.00063E-05,0.000358349,2.0719048976898193
+C1_MobileNetV3Small_no_transforms,MobileNetV3Small,Yes,0.5,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdd287c4190>",1518,transforms_for_video_no_transforms,10,0.05,0.1,251,0.09,500,0.00005,0.00001,cosineAnnealer,80,7,20,20,0.975000024,499,1.00063E-05,8.6078E-05,2.9186863899230957
+C1_MobileNetV3Small,MobileNetV3Small,Yes,0.44999998807907104,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe61da2c7d0>",2510,transforms_for_video,10,0.1,0.1,251,0.09,500,0.00005,0.00001,cosineAnnealer,80,7,20,20,0.962499976,499,1.00063E-05,0.029642075300216675,2.291816234588623
+C2_EfficientNetB0,EfficientNetB0,Yes,0.44999998807907104,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7ff29dee4090>",358,calcMHI-augmentMHI,10,0.1,0.1,501,0.09,1000,0.0001,0.00001,cosineAnnealer,80,7,20,20,0.612500012,999,1.00035E-05,0.7552279829978943,1.749556303024292
+C1_MobileNetV3Small,MobileNetV3Small,Yes,0.44999998807907104,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7ff27014a8d0>",2530,transforms_for_video,10,0.1,0.1,251,0.09,500,0.000075,0.00001,cosineAnnealer,80,7,20,20,1,499,1.00102E-05,0.00255219,1.935300588607788
+C1_Resnet50_augmentation_no_transforms,ResNet50,No,0.44999998807907104,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdba42c86d0>",406,transforms_for_video_no_transforms,10,0.05,0.1,51,0.09,100,0.00005,0.00001,cosineAnnealer,80,7,20,20,1,99,1.01516E-05,0.002624433,2.177711009979248
+C1_MobileNetV3Small,MobileNetV3Small,No,0.4117647111415863,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f88cb764290>",378,transforms_for_video,,,,51,0.1620004252130698,100,0.0001,0.00001,cosineAnnealer,83,7,17,28,0.9879518151283264,99,1.03411E-05,0.027714876,2.762873649597168
+C1_MobileNetV3Small,MobileNetV3Small,No,0.4000000059604645,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8fed453590>",425,transforms_for_video,,,,51,0.9920270657986674,100,0.0001,0.00001,cosineAnnealer,90,7,10,32,0.8777777552604675,99,1.03411E-05,0.18941658735275269,3.2156004905700684
+C1_Resnet50_augmentation,ResNet50,Yes,0.4000000059604645,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fea30536090>",587,transforms_for_video,10,0.1,0.1,51,0.09,100,0.00005,0.00001,cosineAnnealer,80,7,20,20,1,99,1.01516E-05,0.031147037,2.265376329421997
+C2_Resnet50,ResNet50,Yes,0.3499999940395355,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7ff29c2beed0>",725,calcMHI-augmentMHI,10,0.1,0.1,251,0.09,500,0.000075,0.000025,cosineAnnealer,80,7,20,20,1,499,2.50078E-05,0.000673407,2.326122283935547
+C1_MobileNetV3Small,MobileNetV3Small,No,0.30434781312942505,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8471835910>",540,transforms_for_video,,,,51,0.8020889338140877,100,0.0001,0.00001,cosineAnnealer,77,7,23,41,0.8571428656578064,99,1.03411E-05,0.19999045133590695,2.452212333679199
+C1_MobileNetV3Small,MobileNetV3Small,Yes,0.30000001192092896,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7ff29f9d0050>",545,transforms_for_video,10,0.1,0.1,50,0.09,100,0.0001,0.00005,cosineAnnealer,80,7,20,20,0.875,99,1E-04,0.3822061419486999,2.1863045692443848
+C2_Resnet50_flattened,ResNet50,Yes,0.2899022698402405,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f73246a59d0>",2363,calcMHI-augmentMHI_no_transforms,10,0.05,0.1,51,0.09,100,0.000075,0.000025,cosineAnnealer,3693,7,921,15,0.19225561618804932,99,2.51895E-05,1.9031263589859009,1.7909905910491943
+C1_MobileNetV3Small,MobileNetV3Small,No,0.2708333432674408,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8af3acbf90>",615,transforms_for_video,,,,51,0.42045391507267016,100,0.0001,0.00001,cosineAnnealer,52,7,48,47,0.9807692170143129,99,1.03411E-05,0.012088083662092686,2.751631975
+C1_MobileNetV3Small,MobileNetV3Small,No,0.2708333432674408,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f9021e13490>",433,transforms_for_video,,,,51,0.39260010322969174,100,0.0001,0.00001,cosineAnnealer,52,7,48,33,0.9807692170143129,99,1.03411E-05,0.018395379185676575,3.323445081710815
+C1_MobileNetV3Small,MobileNetV3Small,No,0.2702702581882477,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f85fd463690>",548,transforms_for_video,,,,51,0.595071143,100,0.0001,0.00001,cosineAnnealer,63,7,37,42,0.8888888955116272,99,1.03411E-05,0.16515019536018372,3.507269382476806
+C1_MobileNetV3Small,MobileNetV3Small,No,0.2631579041481018,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f87f192ec50>",205,transforms_for_video,,,,51,0.5055362508363442,100,0.0001,0.00001,cosineAnnealer,81,7,19,12,0.29629629850387573,99,1.03411E-05,1.7246907949447632,2.0866172313690186
+C1_MobileNetV3Small,MobileNetV3Small,No,0.25925925374031067,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f86dc052d50>",238,transforms_for_video,,,,51,0.692913199,100,0.0001,0.00001,cosineAnnealer,73,7,27,15,0.465753436,99,1.03411E-05,1.106352448,2.2049613
+C2_ConvNeXtTiny,ConvNeXt Tiny,Yes,0.25,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe48086fed0>",1889,calcMHI-augmentMHI,10,0.1,0.1,501,0.09,1000,0.0001,0.00001,cosineAnnealer,80,7,20,20,0.2750000059604645,999,1.00035E-05,1.60235858,2.045444489
+C1_MobileNetV3Small_V2,MobileNetV3Small,Yes,0.25,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f0580694050>",1101,transforms_for_video_no_transforms,10,0.05,0.1,101,0.09,200,0.00005,0.00001,cosineAnnealer,80,7,20,20,0.962499976,199,1.00387E-05,0.015055875293910503,2.088840961456299
+C1_MobileNetV3Small,MobileNetV3Small,No,0.2448979616165161,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8e25ec4e90>",346,transforms_for_video,,,,51,0.023147179,100,0.0001,0.00001,cosineAnnealer,51,7,49,24,0.9411764740943908,99,1.03411E-05,0.014184368,3.559013843536377
+C1_MobileNetV3Small,MobileNetV3Small,Yes,0.2340425550937653,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f96504391d0>",457,transforms_for_video,10,0.05,0.1,101,0.09,200,0.0001,0.00001,cosineAnnealer,53,7,47,20,0.8867924809455872,97,1.01958E-05,0.14528176188468933,2.295017719268799
+C1_MobileNetV3Small,MobileNetV3Small,No,0.2307692319154739,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f885cdd8590>",485,transforms_for_video,,,,51,0.29136074878855844,100,0.0001,0.00001,cosineAnnealer,87,7,13,37,1,99,1.03411E-05,0.006719653,3.511973142623902
+C1_MobileNetV3Small,MobileNetV3Small,No,0.22499999403953552,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f84e0262190>",137,transforms_for_video,,,,51,0.595993483,100,0.0001,0.00001,cosineAnnealer,60,7,40,6,0.6333333253860474,99,1.03411E-05,1.1031439304351809,2.3488001823425293
+C1_MobileNetV3Small,MobileNetV3Small,No,0.21212121844291687,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f85f2107890>",642,transforms_for_video,,,,51,0.7070259218306234,100,0.0001,0.00001,cosineAnnealer,67,7,33,49,0.8507462739944458,99,1.03411E-05,0.2048557549715042,3.913620948791504
+C1_MobileNetV3Small,MobileNetV3Small,No,0.20930232107639313,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f89e82204d0>",314,transforms_for_video,,,,51,0.9410394025147616,100,0.0001,0.00001,cosineAnnealer,57,7,43,21,0.21052631735801697,99,1.03411E-05,1.8605753183364868,2.420196056365967
+C1_MobileNetV3Small,MobileNetV3Small,No,0.20588235557079315,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f871bb46910>",138,transforms_for_video,,,,51,0.759565443,100,0.0001,0.00001,cosineAnnealer,66,7,34,6,0.3181818127632141,99,1.03411E-05,1.5855573415756226,2.927706480026245
+C2_MobileNetV3Small,MobileNetV3Small,Yes,0.20000000298023224,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe5868a0090>",128,calcMHI-augmentMHI,10,0.1,0.1,50,0.09,100,0.0001,0.00005,cosineAnnealer,80,7,20,20,0.875,99,1E-04,0.21508267521858215,2.0834200382232666
+C1_MobileNetV3Small,MobileNetV3Small,No,0.20000000298023224,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8931e07890>",360,transforms_for_video,,,,51,0.9759776528351826,100,0.0001,0.00001,cosineAnnealer,95,7,5,26,0.8315789699554443,99,1.03411E-05,0.38166099786758423,2.027049779891968
+C2_MobileNetV3Small_augmentation_no_transforms,MobileNetV3Small,Yes,0.1927480846643448,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f72e1e67d10>",955,calcMHI-augmentMHI_no_transforms,10,0.05,0.1,51,0.09,100,0.0001,0.00005,cosineAnnealer,2898,7,2096,10,0.9354727268218994,60,9.54049E-05,0.2116588056087494,2.144845962524414
+C1_MobileNetV3Small,MobileNetV3Small,No,0.18518517911434176,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f854ec7fcd0>",258,transforms_for_video,,,,51,0.8011806505073407,100,0.0001,0.00001,cosineAnnealer,73,7,27,17,0.34246575832366943,99,1.03411E-05,1.2546926736831665,2.322843313217163
+C1_MobileNetV3Small,MobileNetV3Small,No,0.1818181872367859,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f86637e6ad0>",592,transforms_for_video,,,,51,0.7339812335331685,100,0.0001,0.00001,cosineAnnealer,67,7,33,45,0.9104477763175964,99,1.03411E-05,0.12150786072015762,3.3554840087890625
+C1_MobileNetV3Small,MobileNetV3Small,No,0.1818181872367859,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f87b8274a50>",138,transforms_for_video,,,,51,0.6456725501043417,100,0.0001,0.00001,cosineAnnealer,67,7,33,6,0.35820895433425903,99,1.03411E-05,1.3882479667663574,2.541013240814209
+C2_MobileNetV3Small_augmentation_no_transforms,MobileNetV3Small,Yes,0.17589576542377472,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f722d8e2110>",1689,calcMHI-augmentMHI_no_transforms,10,0.05,0.1,51,0.09,100,0.0001,0.00005,cosineAnnealer,3693,7,921,15,0.9805036783218384,99,5.01895E-05,0.038143642246723175,2.118206262588501
+C2_MobileNetV3Small_augmentation_no_transforms,MobileNetV3Small,Yes,0.1735241562128067,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f0b54dede50>",473,calcMHI-augmentMHI_no_transforms,10,0.05,0.1,251,0.09,500,0.0001,0.00005,cosineAnnealer,4489,7,1118,20,0.3154377341270447,4,9.99511E-05,2.0152151584625244,2.0597264766693115
+C2_MobileNetV3Small_augmentation_no_transforms,MobileNetV3Small,Yes,0.1715526580810547,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f73244920d0>",302,calcMHI-augmentMHI_no_transforms,10,0.05,0.1,251,0.09,500,0.0001,0.00005,cosineAnnealer,3693,7,921,15,0.4037368,12,9.96698E-05,1.555937886238098,2.0869407653808594
+C2_MobileNetV3Small_augmentation_no_transforms,MobileNetV3Small,Yes,0.17100977897644043,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f52d8377e50>",294,calcMHI-augmentMHI_no_transforms,10,0.05,0.1,251,0.09,500,0.0001,0.00005,cosineAnnealer,2462,7,614,15,1,16,9.94362E-05,0.000688248,2.5508170127868652
+MHI-test_decay=0.05,MobileNetV3Small,Yes,0.1599999964237213,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f3ebd6f2d90>",22575,,10,0.1,0.1,151,0.05,300,0.0001,0.00005,cosineAnnealer,400,41,100,50,0.9925000071525574,299,5.00216E-05,0.011918919160962105,5.474351406097412
+MHI-test_decay=0.01,MobileNetV3Small,Yes,0.12999999523162842,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f3af0313fd0>",22576,,10,0.1,0.1,151,0.01,300,0.0001,0.00005,cosineAnnealer,400,41,100,50,0.9950000047683716,299,5.00216E-05,0.012459583580493929,5.708757400512695
+MHI-test,MobileNetV3Small,Yes,0.07,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f3eee340fd0>",22433,,10,0.1,0.1,151,0.09,300,0.0001,0.00005,cosineAnnealer,400,41,100,50,0.9950000047683716,299,5.00216E-05,0.025347447022795677,5.4478254318237305
+C1_MobileNetV3Small,MobileNetV3Small,Yes,0.059999999,"Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f944b9e6590>",3966,no_transforms_video_large,10,0.05,0.1,251,0.09,500,0.000075,0.00001,cosineAnnealer,350,41,150,15,0.822857141,81,5.93336E-05,0.5130494236946106,5.424956798553467
